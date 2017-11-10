@@ -12,7 +12,7 @@ namespace Week13WardrobeMVC.Controllers
 {
     public class AccessoriesController : Controller
     {
-        private Week13WardrobeMVCContext db = new Week13WardrobeMVCContext();
+        private WardrobeEntities db = new WardrobeEntities();
 
         // GET: Accessories
         public ActionResult Index()
